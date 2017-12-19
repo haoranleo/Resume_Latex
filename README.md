@@ -1,8 +1,8 @@
 # Resume_Latex
 
-Latex template for personal resume / my personal resume
+Latex template for personal resume / my resume
 
-updated in Oct, 18th
+last updated in Dec, 19th
 
 not for business use
 
