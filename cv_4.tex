@@ -9,11 +9,16 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
-
+\usepackage{CJK}
+\usepackage{fancyhdr}
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
 \usepackage{mathtools}
 \usepackage{setspace}
 
+\pagestyle{fancy}
+\lhead{Resume}
+\chead{M.S. in Robotics}
+\rhead{U-M ID: 15262473}
 \name{HAORAN LI} % Your name
 \address{~~~~~~~~~~~haoranli@gatech.edu \hfill https://github.com/HL-EverGreen\hfill(+86)~178~$\cdot$~1689~$\cdot$~0200~~~~~~~~~} % Your phone number and email
 
@@ -31,11 +36,15 @@
 \begin{list}{$\bullet$}{\leftmargin=1em} % \cdot used for bullets, no indentation
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 \item ~{\bf B.Eng. in Automation}~(expected in {\em July 2018})\hfill{\em Hangzhou,~China}
-\item ~{\bf Rank: } 15/117 ~~~~~~~~~~~~~~~~~~{\bf Overall GPA: }87.0/100~~~~~~~~~~~~~~~~~~{\bf Major GPA: }88.2/100
-\item ~{\bf Core~Courses:~}{\em Computer Control System, Microprocessors $\&$ Interface, Signal and System, Principles of Automatic Control, Database System, C++ Programming, Data Structure}
-\item ~{\bf Related~Courses:~}{\em Discrete~Mathematics,~Computing~Theory,~Computer~Networks}
-\item ~{\bfseries Honors:~}
-	{\em Meritorious Winner in Interdisciplinary Contest in Modeling, SupCon Prize(2$\%$), third grade Scholarship}
+\item ~{Rank:} {\bf15/117};~~{Overall GPA: }{\bf3.85/4.0 (87.1/100)};~~{Major GPA: }{\bf3.94/4.0 (88.6/100)}
+\item ~{\bf Core~Courses:~}{\em Computer Control System, Microprocessors $\&$ Interface, Signal and System, Principles of Automatic Control, Robots Technology,  Modern Sensing Technology, Database System, C++ Programming, Data Structure}
+\item ~{\bf Related~Courses:~}{\em Computer~Networks, Discrete~Mathematics,~Computing~Theory (currently enrolled)}
+\item ~{\bfseries Honors:}~{Meritorious Winner in Interdisciplinary Contest in Modeling (ICM), Research and Innovation Scholarship,}
+	\begin{list}{}{\leftmargin=4.3em}
+	\itemsep -0.5em \vspace{-0.5em}
+	\item ~{ZJU Outstanding Student, SupCon Scholarship(2$\%$), ZJU Academic Scholarship}
+	\end{list}
+	%{\em Meritorious Winner in MCM/ICM, SupCon Scholarship(2$\%$), ZJU Academic Scholarship, \newline Research and Innovation Scholarship, ZJU Outstanding Student}
 	\end{list}
 
 %$\bullet$ ~{\bf B.Eng. in Automation}~(expected in {\em July 2018})\hfill{\em Hangzhou,~China}\\
@@ -57,10 +66,10 @@ $\bullet$~{\bf Intelligent Vision and Automation Lab}~~{Gatech~Advisor:~{\em Pro
 \end{spacing}
 \begin{list}{--}{\leftmargin=1em}
 	\itemsep -0.5em \vspace{-0.5em}
-\item Worked on the {\bfseries Remote Robot Teleoperation Interfaces} project, to reduce the workload in operating robotic arm
-\item Incorporated scene information around the interested point selected by user into grasp specification algorithm
+\item Worked on the {\bfseries Robotic Arm Teleoperation Interfaces} project, to reduce the workload in operating robotic arm
+\item Incorporated scene information around the interest point selected by user into grasp specification algorithm
 \item Replaced the antipodal gripper pose classifier in AGILE algorithm with a heuristic-based approach, to find series of reliable grasp options ordered from best to worst for users to choose from
-\item Achieved arm's accurate control only requiring users to choose an interested point on target object upon user interface
+\item Achieved arm's accurate control only requiring users to choose an interest point on target object upon user interface
 	
 \end{list}
 
@@ -72,8 +81,8 @@ $\bullet$~{\bf Computer Vision and Pattern Recognition Lab}~~{ZJU Advisor: {\em 
 \end{spacing}
 \begin{list}{--}{\leftmargin=1em}
 	\itemsep -0.5em \vspace{-0.5em}
-\item Worked on the {\bfseries Super Resolution Image Reconstruction} project, to increase the resolution of primitive images
-\item Proposed an adaptive POCS algorithm that predisposed original figures by interpolating pixel on the premise of retaining boundary information to decrease the noises, which obviously increased the quality of generated image
+\item Worked on the {\bfseries Super-resolution Image Reconstruction} project, to increase the resolution of primitive images
+\item Proposed an adaptive POCS algorithm that preprocesses the original figures by interpolating pixel on the premise of retaining boundary information to decrease the noise, which obviously increased the quality of generated image
 \item Developed a MATLAB-based system to achieve the process of Super-Resolution reconstruction
 \end{list}
 
@@ -84,7 +93,7 @@ $\bullet$~{\bf ZJUNlict Robot Soccer Team}~~{ZJU Advisor: {\em Prof.} Rong Xiong
 \end{spacing}
 \begin{list}{--}{\leftmargin=1em}
 	\itemsep -0.5em \vspace{-0.5em}
-\item Worked on small scale wheeled mobile robot, to increase its competitiveness in RoboCup
+\item Worked on small scale wheeled mobile robot, accelerated recognition speed to increase its competitiveness in RoboCup
 \item Programmed a main controller to let six robots compete against another team virtually by simulation
 \item Designed part of the attack and defense strategies, to provide several plans for robots to choose from during competition
 
@@ -134,7 +143,7 @@ $\bullet$~{\bf Market Shopping Robot}\hfill{\em Sept. 2015 - May 2016}\smallskip
 \begin{list}{--}{\leftmargin=1em}
 	\itemsep -0.5em \vspace{-0.5em}
 \item Led a group to design a shopping robot, which can recognize and carry certain object from inventory to specified spot
-\item Adopted MSCR algorithm in detecting local feature region to help determine figure’s contour
+\item Implemented MSCR algorithm in detecting cubes as well as SURF algorithm in collecting features of different objects
 \item Used cascade control system in robot’s motion to improve overall accuracy
 
 \end{list}
@@ -151,15 +160,15 @@ $\bullet$~{\bf C++ RPG Game with 3500 Lines of Code}\hfill{\em June 2016}\smalls
 \end{list}
 %-----------------------------------------------------
 	
-\begin{spacing}{0.4}
-$\bullet$~{\bf Recovery of Rubik's Cube within least steps}\hfill{\em May 2016 - June 2016}\smallskip\\
-\end{spacing}
-\begin{list}{--}{\leftmargin=1em}
-	\itemsep -0.5em \vspace{-0.5em}
-\item Calculated possible state transition matrixes and used breadth-first search algorithm to find the least-step solution
-\item Developed a MATLAB-based software which could display the process of recovering
+%\begin{spacing}{0.4}
+%$\bullet$~{\bf Recovery of Rubik's Cube within least steps}\hfill{\em May 2016 - June 2016}\smallskip\\
+%\end{spacing}
+%\begin{list}{--}{\leftmargin=1em}
+%	\itemsep -0.5em \vspace{-0.5em}
+%\item Calculated possible state transition matrixes and used breadth-first search algorithm to find the least-step solution
+%\item Developed a MATLAB-based software which could display the process of recovering
 
-\end{list}
+%\end{list}
 %-----------------------------------------------------	
 \end{rSection}
 
@@ -172,8 +181,8 @@ $\bullet$~{\bf Recovery of Rubik's Cube within least steps}\hfill{\em May 2016 -
 \begin{rSection}{Skills and Others}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming & C/C++, Python, MATLAB, ROS, SQL, Lua, \LaTeX \\
-Language & TOEFL: 97~~~~~~~~~GRE: 153(V), 170(Q), 3.5(AW) \\
+Programming & C/C++, ROS, MATLAB, Python, SQL, Lua, \LaTeX \\
+Language & TOEFL: 102; Sections: 29(R), 25(L), 22(S), 26(W)~~~~~~~~~GRE: 153(V), 170(Q), 3.5(AW) \\
 %Databases & MySQL, PostgreSQL, Microsoft SQL \\
 %Tools & SVN, Vim, Emacs
 \end{tabular}
