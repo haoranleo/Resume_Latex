@@ -15,10 +15,10 @@
 \usepackage{mathtools}
 \usepackage{setspace}
 
-\pagestyle{fancy}
-\lhead{Resume}
-\chead{M.S. in Robotics}
-\rhead{U-M ID: 15262473}
+%\pagestyle{fancy}
+%\lhead{Resume}
+%\chead{M.S. in Robotics}
+%\rhead{U-M ID: 15262473}
 \name{HAORAN LI} % Your name
 \address{~~~~~~~~~~~haoranli@gatech.edu \hfill https://github.com/HL-EverGreen\hfill(+86)~178~$\cdot$~1689~$\cdot$~0200~~~~~~~~~} % Your phone number and email
 
@@ -37,8 +37,8 @@
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
 \item ~{\bf B.Eng. in Automation}~(expected in {\em July 2018})\hfill{\em Hangzhou,~China}
 \item ~{Rank:} {\bf15/117};~~{Overall GPA: }{\bf3.85/4.0 (87.1/100)};~~{Major GPA: }{\bf3.94/4.0 (88.6/100)}
-\item ~{\bf Core~Courses:~}{\em Computer Control System, Microprocessors $\&$ Interface, Signal and System, Principles of Automatic Control, Robots Technology,  Modern Sensing Technology, Database System, C++ Programming, Data Structure}
-\item ~{\bf Related~Courses:~}{\em Computer~Networks, Discrete~Mathematics,~Computing~Theory (currently enrolled)}
+%\item ~{\bf Core~Courses:~}{\em Computer Control System, Microprocessors $\&$ Interface, Signal and System, Principles of Automatic Control, Robots Technology,  Modern Sensing Technology, Database System, C++ Programming, Data Structure}
+\item ~{\bf Related~Courses:~}{\em Object Oriented Programming(C++), Python Programming, Data Structure, Machine Vision, Numerical Method, Database Systems, Robots Technology, Probability and Mathematical Statistics, Discrete Mathematics, Principles of Automatic Control, Microprocessors $\&$ Interface, Computing~Theory, Computer Networks}
 \item ~{\bfseries Honors:}~{Meritorious Winner in Interdisciplinary Contest in Modeling (ICM), Research and Innovation Scholarship,}
 	\begin{list}{}{\leftmargin=4.3em}
 	\itemsep -0.5em \vspace{-0.5em}
@@ -83,11 +83,51 @@ $\bullet$~{\bf Computer Vision and Pattern Recognition Lab}~~{ZJU Advisor: {\em 
 	\itemsep -0.5em \vspace{-0.5em}
 \item Worked on the {\bfseries Super-resolution Image Reconstruction} project, to increase the resolution of primitive images
 \item Proposed an adaptive POCS algorithm that preprocesses the original figures by interpolating pixel on the premise of retaining boundary information to decrease the noise, which obviously increased the quality of generated image
+\item Implemented several deep-learning-based methods (such as SRCNN and VDSR) in Caffe and achieved the SR goal
 \item Developed a MATLAB-based system to achieve the process of Super-Resolution reconstruction
 \end{list}
 
 %-----------------------------------------------------
 
+%\begin{spacing}{0.4}
+%$\bullet$~{\bf ZJUNlict Robot Soccer Team}~~{ZJU Advisor: {\em Prof.} Rong Xiong}\hfill{\em Sept. 2016 - Dec. 2016}\smallskip\\
+%\end{spacing}
+%\begin{list}{--}{\leftmargin=1em}
+%	\itemsep -0.5em \vspace{-0.5em}
+%\item Worked on small scale wheeled mobile robot, accelerated recognition speed to increase its competitiveness in RoboCup
+%\item Programmed a main controller to let six robots compete against another team virtually by simulation
+%\item Designed part of the attack and defense strategies, to provide several plans for robots to choose from during competition
+
+%\end{list}
+
+%-----------------------------------------------------
+
+
+%~~{GT~Advisor:~Dr.~Patricio~Vela}~\hfill {\em Aug. 2017 - Sept. 2017}\\
+%~{GT~Advisor:}{\em~prof.~}{Patricio Vela}
+
+\end{rSection}
+
+
+%---------------------------------------------------------------------------
+%	INTERNSHIP EXPERIENCE SECTION
+%-----------
+
+\begin{rSection}{Internship Experience}
+
+%-----------------------------------------------------
+\begin{spacing}{0.4}
+$\bullet$~{\bf Hikvision Research Lab}~~{Hikvision Advisor: Jietian Guo}\hfill{\em Feb. 2018 - July 2018}\smallskip\\
+\end{spacing}
+\begin{list}{--}{\leftmargin=1em}
+	\itemsep -0.5em \vspace{-0.5em}
+\item Worked on {\bf Pedestrian Behavior Analysis} project, with aim to detect pedestrian's unusual behaviors such as fighting
+\item Due to the lack of the real-world data, we synthesized the dense pixel-level labeled data through the game GTA5
+\item Implemented 3D CNN	 to achieve pose estimation, and we plan to try Non-local Neural Networks in the future
+
+\end{list}
+
+%-----------------------------------------------------
 \begin{spacing}{0.4}
 $\bullet$~{\bf ZJUNlict Robot Soccer Team}~~{ZJU Advisor: {\em Prof.} Rong Xiong}\hfill{\em Sept. 2016 - Dec. 2016}\smallskip\\
 \end{spacing}
@@ -98,43 +138,39 @@ $\bullet$~{\bf ZJUNlict Robot Soccer Team}~~{ZJU Advisor: {\em Prof.} Rong Xiong
 \item Designed part of the attack and defense strategies, to provide several plans for robots to choose from during competition
 
 \end{list}
-
 %-----------------------------------------------------
 
-
-%~~{GT~Advisor:~Dr.~Patricio~Vela}~\hfill {\em Aug. 2017 - Sept. 2017}\\
-%~{GT~Advisor:}{\em~prof.~}{Patricio Vela}
-
 \end{rSection}
+
 
 %---------------------------------------------------------------------------
 %	PROJECT EXPERIENCE SECTION
 %---------------------------------------------------------------------------
 \begin{rSection}{Project Experience}
 
+%-----------------------------------------------------
 \begin{spacing}{0.4}
 $\bullet$~{\bf Database Management System(MiniSQL)}~~{ZJU Advisor: {\em Prof.} Jianling Sun}\hfill{\em April 2017 - May 2017}\smallskip\\
 \end{spacing}
 \begin{list}{--}{\leftmargin=1em}
 	\itemsep -0.5em \vspace{-0.5em}
 \item Developed a DBMS allowing users to manage their own databases using SQL statements through character interface
-\item Used LRU strategy in Buffer Manager and applied B+ tree structure in Index Manager to improve efficiency, achieved slotted page structure in Record Manager to support variable-length records
-\item Designed Interpreter Manager to interact with users and programmed API to integrate the whole project
+\item Used LRU strategy in Buffer Manager and applied B+ tree structure in Index Manager, achieved slotted page structure in Record Manager and programmed API to integrate the whole project
 
 \end{list}
 
 %-----------------------------------------------------
 
-\begin{spacing}{0.4}
-$\bullet$~{\bf Airport Passengers Throughput Model}\hfill{\em Jan. 2017}\smallskip\\
-\end{spacing}
-\begin{list}{--}{\leftmargin=1em}
-	\itemsep -0.5em \vspace{-0.5em}
-\item Aimed to find economical and safe way to increase passengers throughput at security checkpoint in O’hare Airport
-\item Deduced differential equations, transformed DE model into physics model and ran simulation in MATLAB
-\item Succeeded in giving advice to increase throughput and designated as Meritorious Winner in ICM
+%\begin{spacing}{0.4}
+%$\bullet$~{\bf Airport Passengers Throughput Model}\hfill{\em Jan. 2017}\smallskip\\
+%\end{spacing}
+%\begin{list}{--}{\leftmargin=1em}
+%	\itemsep -0.5em \vspace{-0.5em}
+%\item Aimed to find economical and safe way to increase passengers throughput at security checkpoint in O’hare Airport
+%\item Deduced differential equations, transformed DE model into physics model and ran simulation in MATLAB
+%\item Succeeded in giving advice to increase throughput and designated as Meritorious Winner in ICM
 
-\end{list}
+%\end{list}
 
 %-----------------------------------------------------
 \begin{spacing}{0.4}
@@ -181,7 +217,7 @@ $\bullet$~{\bf C++ RPG Game with 3500 Lines of Code}\hfill{\em June 2016}\smalls
 \begin{rSection}{Skills and Others}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming & C/C++, ROS, MATLAB, Python, SQL, Lua, \LaTeX \\
+Programming & C/C++, MATLAB, Python, ROS, SQL, Lua, \LaTeX \\
 Language & TOEFL: 102; Sections: 29(R), 25(L), 22(S), 26(W)~~~~~~~~~GRE: 153(V), 170(Q), 3.5(AW) \\
 %Databases & MySQL, PostgreSQL, Microsoft SQL \\
 %Tools & SVN, Vim, Emacs
