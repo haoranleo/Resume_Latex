@@ -2,7 +2,7 @@
 
 Latex template for personal resume / my resume
 
-last updated in Dec, 19th
+last updated in March 19th, 2018
 
 not for business use
 
